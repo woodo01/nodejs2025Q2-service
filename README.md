@@ -1,3 +1,5 @@
+**This PR is a migration of a [PR](https://github.com/woodo01/nodejs2024Q3-service/pull/1) from the previous course**
+
 # Home Library Service
 
 ## Prerequisites
