@@ -611,7 +611,7 @@ components:
       properties:
         id:
           type: string
-          example: 11111111-ab12-ab32-1234-123123123123
+          example: 0a35dd62-e09f-444b-a628-f4e7c6954f57
           description: UUID
         login:
           type: string
@@ -668,7 +668,7 @@ components:
       properties:
         id:
           type: string
-          example: 11111111-ab12-ab32-1234-123123123123
+          example: 0a35dd62-e09f-444b-a628-f4e7c6954f57
           description: UUID of the artist
         name:
           type: string
@@ -690,7 +690,7 @@ components:
       properties:
         id:
           type: string
-          example: 11111111-ab12-ab32-1234-123123123123
+          example: 0a35dd62-e09f-444b-a628-f4e7c6954f57
           description: UUID
         name:
           type: string
@@ -702,7 +702,7 @@ components:
           description: When released
         artistId:
           type: string
-          example: 11111111-ab12-ab32-1234-123123123123
+          example: 0a35dd62-e09f-444b-a628-f4e7c6954f57
           description: UUID of the artist
       required:
         - id
@@ -717,7 +717,7 @@ components:
       properties:
         id:
           type: string
-          example: 11111111-ab12-ab32-1234-123123123123
+          example: 0a35dd62-e09f-444b-a628-f4e7c6954f57
           description: UUID of the track
         name:
           type: string
@@ -725,11 +725,11 @@ components:
           description: Name of the track
         artistId:
           type: string
-          example: 11111111-ab12-ab32-1234-123123123123
+          example: 0a35dd62-e09f-444b-a628-f4e7c6954f57
           description: UUID of the artist
         albumId:
           type: string
-          example: 11111111-ab12-ab32-1234-123123123123
+          example: 0a35dd62-e09f-444b-a628-f4e7c6954f57
           description: UUID of the album
         duration:
           type: number
