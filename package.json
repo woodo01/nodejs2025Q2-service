@@ -26,7 +26,8 @@
     "swagger:export": "ts-node util/export-swagger.ts",
     "migrate": "npx prisma migrate dev --preview-feature --skip-generate",
     "docker:scan": "docker scout cves ivandevelop/nodejs2025q2-service:latest",
-    "docker:compose": "docker compose up --build --force-recreate -d"
+    "docker:compose": "docker compose up --build --force-recreate -d",
+    "docker:compose:dev": "docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build --force-recreate -d"
   },
   "dependencies": {
     "@nestjs/common": "^10.4.18",
